@@ -25,7 +25,6 @@
 #include "stm32f10x.h"
 #include "delay.h"
 //#include "usart.h"
-#include "servor.h"
 
 #define	LED PAout(8)  //Ñ¡ÖÐFLASH		
 /** @addtogroup STM32F10x_StdPeriph_Template

@@ -3,9 +3,8 @@
 
 #include "sys.h"
 
-#define LED0 PAout(8)	// PA8
-#define LED1 PAout(4)	// PD2	
-								
+#define LED0 PAout(4)	// PD2				
 void LED_Init(void);//≥ı ºªØ
+void LED_loop(void);
 		 				    
 #endif

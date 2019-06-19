@@ -337,7 +337,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER,STM32F10X_MD</Define>
               <Undefine></Undefine>
-              <IncludePath>.\CORE;.\FWlib\inc;.\HARDWARE\Beep;.\HARDWARE\Common;.\HARDWARE\LED;.\HARDWARE\Servo;.\HARDWARE\Timer;.\SYSTEM\delay;.\SYSTEM\sys;.\SYSTEM\usart;.\USER;.\FreeRTOS\include;.\FreeRTOS\portable\RVDS\ARM_CM3;.\SYSTEM\usart</IncludePath>
+              <IncludePath>.\CORE;.\FWlib\inc;.\HARDWARE\Beep;.\HARDWARE\Common;.\HARDWARE\LED;.\HARDWARE\Servo;.\HARDWARE\Timer;.\SYSTEM\delay;.\SYSTEM\sys;.\SYSTEM\usart;.\USER;.\FreeRTOS\include;.\FreeRTOS\portable\RVDS\ARM_CM3;.\SYSTEM\usart;.\HARDWARE\Config;.\HARDWARE\BUZZER</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -520,6 +520,16 @@
               <FileName>led.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\HARDWARE\LED\led.c</FilePath>
+            </File>
+            <File>
+              <FileName>taskConfig.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\HARDWARE\Config\taskConfig.c</FilePath>
+            </File>
+            <File>
+              <FileName>buzzer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\HARDWARE\BUZZER\buzzer.c</FilePath>
             </File>
           </Files>
         </Group>

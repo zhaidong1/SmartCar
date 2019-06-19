@@ -15,7 +15,6 @@
 .\output\main.o: .\SYSTEM\delay\delay.h
 .\output\main.o: .\SYSTEM\sys\sys.h
 .\output\main.o: .\HARDWARE\LED\led.h
-.\output\main.o: .\HARDWARE\Beep\beep.h
 .\output\main.o: .\FreeRTOS\include\FreeRTOS.h
 .\output\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\output\main.o: .\FreeRTOS\include\FreeRTOSConfig.h
@@ -28,3 +27,5 @@
 .\output\main.o: .\FreeRTOS\include\mpu_wrappers.h
 .\output\main.o: .\FreeRTOS\include\task.h
 .\output\main.o: .\FreeRTOS\include\list.h
+.\output\main.o: .\HARDWARE\Config\taskConfig.h
+.\output\main.o: .\HARDWARE\BUZZER\buzzer.h

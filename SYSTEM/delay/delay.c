@@ -81,6 +81,7 @@ void delay_us(u32 nus)
 //延时nms
 //nms:要延时的ms数
 //nms:0~65535
+//引用时不会引起任何的任务调动
 void delay_ms(u32 nms)
 {	
 	if(xTaskGetSchedulerState()!=taskSCHEDULER_NOT_STARTED)//系统已经运行

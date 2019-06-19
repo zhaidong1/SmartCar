@@ -14,4 +14,3 @@
 .\output\stm32f10x_it.o: .\FWlib\inc\misc.h
 .\output\stm32f10x_it.o: .\SYSTEM\delay\delay.h
 .\output\stm32f10x_it.o: .\SYSTEM\sys\sys.h
-.\output\stm32f10x_it.o: .\HARDWARE\Servo\servor.h

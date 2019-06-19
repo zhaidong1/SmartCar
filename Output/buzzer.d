@@ -1,0 +1,17 @@
+.\output\buzzer.o: HARDWARE\BUZZER\buzzer.c
+.\output\buzzer.o: HARDWARE\BUZZER\buzzer.h
+.\output\buzzer.o: .\SYSTEM\sys\sys.h
+.\output\buzzer.o: .\USER\stm32f10x.h
+.\output\buzzer.o: .\CORE\core_cm3.h
+.\output\buzzer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\buzzer.o: .\USER\system_stm32f10x.h
+.\output\buzzer.o: .\USER\stm32f10x_conf.h
+.\output\buzzer.o: .\FWlib\inc\stm32f10x_dma.h
+.\output\buzzer.o: .\USER\stm32f10x.h
+.\output\buzzer.o: .\FWlib\inc\stm32f10x_gpio.h
+.\output\buzzer.o: .\FWlib\inc\stm32f10x_rcc.h
+.\output\buzzer.o: .\FWlib\inc\stm32f10x_spi.h
+.\output\buzzer.o: .\FWlib\inc\stm32f10x_tim.h
+.\output\buzzer.o: .\FWlib\inc\stm32f10x_usart.h
+.\output\buzzer.o: .\FWlib\inc\misc.h
+.\output\buzzer.o: .\SYSTEM\delay\delay.h
