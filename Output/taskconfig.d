@@ -29,3 +29,4 @@
 .\output\taskconfig.o: .\FreeRTOS\include\task.h
 .\output\taskconfig.o: .\FreeRTOS\include\list.h
 .\output\taskconfig.o: .\SYSTEM\delay\delay.h
+.\output\taskconfig.o: .\HARDWARE\STEER\steer.h

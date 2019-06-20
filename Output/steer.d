@@ -1,0 +1,17 @@
+.\output\steer.o: HARDWARE\STEER\steer.c
+.\output\steer.o: HARDWARE\STEER\steer.h
+.\output\steer.o: .\SYSTEM\sys\sys.h
+.\output\steer.o: .\USER\stm32f10x.h
+.\output\steer.o: .\CORE\core_cm3.h
+.\output\steer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\steer.o: .\USER\system_stm32f10x.h
+.\output\steer.o: .\USER\stm32f10x_conf.h
+.\output\steer.o: .\FWlib\inc\stm32f10x_dma.h
+.\output\steer.o: .\USER\stm32f10x.h
+.\output\steer.o: .\FWlib\inc\stm32f10x_gpio.h
+.\output\steer.o: .\FWlib\inc\stm32f10x_rcc.h
+.\output\steer.o: .\FWlib\inc\stm32f10x_spi.h
+.\output\steer.o: .\FWlib\inc\stm32f10x_tim.h
+.\output\steer.o: .\FWlib\inc\stm32f10x_usart.h
+.\output\steer.o: .\FWlib\inc\misc.h
+.\output\steer.o: .\SYSTEM\delay\delay.h

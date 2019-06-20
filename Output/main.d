@@ -29,3 +29,4 @@
 .\output\main.o: .\FreeRTOS\include\list.h
 .\output\main.o: .\HARDWARE\Config\taskConfig.h
 .\output\main.o: .\HARDWARE\BUZZER\buzzer.h
+.\output\main.o: .\HARDWARE\STEER\steer.h
