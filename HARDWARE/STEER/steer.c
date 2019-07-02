@@ -41,9 +41,9 @@ void STEER_Init(void)
 
 void STEER_loop(void)
 {
-//	uint16_t a = 0;
-//	a = 20000 * 0.025;
-//	TIM_SetCompare2(TIM2,a);	
-//	vTaskDelay(1000); 
-	
+	uint16_t  a = 0;
+	double b = 0;
+	b = 20000 * 1.5 / 20;     //在正方向最右侧 对应-90°
+	a = (uint16_t)b;
+	TIM_SetCompare4(TIM1,a);	
 }

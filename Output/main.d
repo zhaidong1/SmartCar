@@ -30,3 +30,9 @@
 .\output\main.o: .\HARDWARE\Config\taskConfig.h
 .\output\main.o: .\HARDWARE\BUZZER\buzzer.h
 .\output\main.o: .\HARDWARE\STEER\steer.h
+.\output\main.o: .\HARDWARE\MOTOR\motor.h
+.\output\main.o: .\HARDWARE\ECODER\encoder.h
+.\output\main.o: .\HARDWARE\OLED\oled.h
+.\output\main.o: .\HARDWARE\PMU\pmu.h
+.\output\main.o: .\HARDWARE\PS2\Ps2.h
+.\output\main.o: .\HARDWARE\OLED\show.h

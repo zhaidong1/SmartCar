@@ -15,6 +15,9 @@
 .\output\usart.o: .\FWlib\inc\misc.h
 .\output\usart.o: SYSTEM\usart\usart.h
 .\output\usart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\usart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\output\usart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\output\usart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\output\usart.o: .\FreeRTOS\include\FreeRTOS.h
 .\output\usart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\output\usart.o: .\FreeRTOS\include\FreeRTOSConfig.h

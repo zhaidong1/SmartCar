@@ -8,14 +8,29 @@
 #include "task.h"
 #include "delay.h"
 #include "steer.h"
+#include "motor.h"
+#include "encoder.h"
+#include "oled.h"
+#include "pmu.h"
+#include "Ps2.h"
+#include "show.h"
 
+typedef struct MoveBase_ALL{
+	Ecoder ecoder;
+	PMU pmu;
+	PS2_para PS2;
+	//uint8_t OLED_GRAM[128][8];	 
+}moveBase;
+
+extern moveBase movebase;
 void system_config(void);
+
 
 
 //任务优先级
 #define START_TASK_PRIO		1
 //任务堆栈大小	
-#define START_STK_SIZE 		128  //实际分配的是128 * 4个字节
+#define START_STK_SIZE 		128 //实际分配的是128 * 4个字节
 //任务句柄
 extern TaskHandle_t StartTask_Handler;
 //任务函数
@@ -23,32 +38,32 @@ void start_task(void *pvParameters);
 
 
 //任务优先级
-#define LED0_TASK_PRIO		2
-//任务堆栈大小	
-#define LED0_STK_SIZE 		50  
+#define LOGICAL_TASK_PRIO		2
+//任务堆栈大小	(128 * 8)
+#define LOGICAL_STK_SIZE 		50
 //任务句柄
-extern TaskHandle_t LED0Task_Handler;
+extern TaskHandle_t LOGICALTask_Handler;
 //任务函数
-void led0_task(void *pvParameters);
+void Logical_task(void *pvParameters);
 
 
 //任务优先级
-#define BUZZER_TASK_PRIO	3
+#define SERIAL_TASK_PRIO	3
 //任务堆栈大小	
-#define BUZZER_STK_SIZE 	50  
+#define SERIAL_STK_SIZE 	50  
 //任务句柄
-extern TaskHandle_t BUZZERTask_Handler;
+extern TaskHandle_t SerialTask_Handler;
 //任务函数
 void buzzer_task(void *pvParameters);			   
 
 
 //任务优先级
-#define STEER_TASK_PRIO		4
+#define EXCEPTION_TASK_PRIO		4
 //任务堆栈大小	
-#define STEER_STK_SIZE 		50  
+#define EXCEPTION_STK_SIZE 		50  
 //任务句柄
-extern TaskHandle_t STEERTask_Handler;
+extern TaskHandle_t EXCEPTIONTask_Handler;
 //任务函数
-void steer_task(void *pvParameters);		
+void Exception_task(void *pvParameters);		
 		
 #endif

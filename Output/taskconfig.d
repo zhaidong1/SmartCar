@@ -30,3 +30,9 @@
 .\output\taskconfig.o: .\FreeRTOS\include\list.h
 .\output\taskconfig.o: .\SYSTEM\delay\delay.h
 .\output\taskconfig.o: .\HARDWARE\STEER\steer.h
+.\output\taskconfig.o: .\HARDWARE\MOTOR\motor.h
+.\output\taskconfig.o: .\HARDWARE\ECODER\encoder.h
+.\output\taskconfig.o: .\HARDWARE\OLED\oled.h
+.\output\taskconfig.o: .\HARDWARE\PMU\pmu.h
+.\output\taskconfig.o: .\HARDWARE\PS2\Ps2.h
+.\output\taskconfig.o: .\HARDWARE\OLED\show.h

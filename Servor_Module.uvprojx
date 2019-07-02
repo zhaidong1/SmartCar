@@ -133,12 +133,12 @@
             <UseExternalTool>0</UseExternalTool>
             <RunIndependent>0</RunIndependent>
             <UpdateFlashBeforeDebugging>1</UpdateFlashBeforeDebugging>
-            <Capability>0</Capability>
-            <DriverSelection>-1</DriverSelection>
+            <Capability>1</Capability>
+            <DriverSelection>4096</DriverSelection>
           </Flash1>
           <bUseTDR>0</bUseTDR>
           <Flash2>BIN\UL2CM3.DLL</Flash2>
-          <Flash3></Flash3>
+          <Flash3>"" ()</Flash3>
           <Flash4></Flash4>
           <pFcarmOut></pFcarmOut>
           <pFcarmGrp></pFcarmGrp>
@@ -337,7 +337,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER,STM32F10X_MD</Define>
               <Undefine></Undefine>
-              <IncludePath>.\CORE;.\FWlib\inc;.\HARDWARE\Beep;.\HARDWARE\Common;.\HARDWARE\LED;.\HARDWARE\Servo;.\HARDWARE\Timer;.\SYSTEM\delay;.\SYSTEM\sys;.\SYSTEM\usart;.\USER;.\FreeRTOS\include;.\FreeRTOS\portable\RVDS\ARM_CM3;.\SYSTEM\usart;.\HARDWARE\Config;.\HARDWARE\BUZZER;.\HARDWARE\STEER</IncludePath>
+              <IncludePath>.\CORE;.\FWlib\inc;.\HARDWARE\Beep;.\HARDWARE\Common;.\HARDWARE\LED;.\HARDWARE\Servo;.\HARDWARE\Timer;.\SYSTEM\delay;.\SYSTEM\sys;.\SYSTEM\usart;.\USER;.\FreeRTOS\include;.\FreeRTOS\portable\RVDS\ARM_CM3;.\SYSTEM\usart;.\HARDWARE\Config;.\HARDWARE\BUZZER;.\HARDWARE\STEER;.\HARDWARE\MOTOR;.\HARDWARE\ECODER;.\HARDWARE\OLED;.\HARDWARE\PMU;.\HARDWARE\PS2</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -535,6 +535,36 @@
               <FileName>steer.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\HARDWARE\STEER\steer.c</FilePath>
+            </File>
+            <File>
+              <FileName>motor.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\HARDWARE\MOTOR\motor.c</FilePath>
+            </File>
+            <File>
+              <FileName>encoder.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\HARDWARE\ECODER\encoder.c</FilePath>
+            </File>
+            <File>
+              <FileName>oled.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\HARDWARE\OLED\oled.c</FilePath>
+            </File>
+            <File>
+              <FileName>show.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\HARDWARE\OLED\show.c</FilePath>
+            </File>
+            <File>
+              <FileName>pmu.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\HARDWARE\PMU\pmu.c</FilePath>
+            </File>
+            <File>
+              <FileName>Ps2.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\HARDWARE\PS2\Ps2.c</FilePath>
             </File>
           </Files>
         </Group>

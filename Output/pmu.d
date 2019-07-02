@@ -1,0 +1,17 @@
+.\output\pmu.o: HARDWARE\PMU\pmu.c
+.\output\pmu.o: HARDWARE\PMU\pmu.h
+.\output\pmu.o: .\SYSTEM\sys\sys.h
+.\output\pmu.o: .\USER\stm32f10x.h
+.\output\pmu.o: .\CORE\core_cm3.h
+.\output\pmu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\pmu.o: .\USER\system_stm32f10x.h
+.\output\pmu.o: .\USER\stm32f10x_conf.h
+.\output\pmu.o: .\FWlib\inc\stm32f10x_dma.h
+.\output\pmu.o: .\USER\stm32f10x.h
+.\output\pmu.o: .\FWlib\inc\stm32f10x_gpio.h
+.\output\pmu.o: .\FWlib\inc\stm32f10x_rcc.h
+.\output\pmu.o: .\FWlib\inc\stm32f10x_spi.h
+.\output\pmu.o: .\FWlib\inc\stm32f10x_tim.h
+.\output\pmu.o: .\FWlib\inc\stm32f10x_usart.h
+.\output\pmu.o: .\FWlib\inc\misc.h
+.\output\pmu.o: .\FWlib\inc\stm32f10x_adc.h
